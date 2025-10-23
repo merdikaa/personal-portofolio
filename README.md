@@ -82,6 +82,8 @@ Dibangun dengan **HTML, CSS, dan JavaScript murni**, proyek ini melatih kemampua
 
 📂 [Lihat Proyek Drum Berbasis Web](https://github.com/merdikaa/drum-page)
 
+---
+
 ## 🧰 Teknologi Utama
 
 | Teknologi        | Fungsi                                |
