@@ -70,3 +70,104 @@ h2 {
 }
 
 
+.work-experience-section {
+  background-color: #05080d;
+  color: #ffffff;
+}
+
+.work-title {
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.experience-item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.experience-year {
+  font-size: 1.9rem;
+  font-weight: 400;
+  color: #c9d4e5;
+  line-height: 1.2;
+}
+
+.experience-role {
+  font-size: 2.1rem;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.experience-company {
+  font-size: 1.6rem;
+  color: #b8c2d1;
+}
+
+.experience-dot {
+  display: inline-block;
+  margin: 0 8px;
+  color: #b8c2d1;
+}
+
+.experience-description {
+  max-width: 900px;
+  font-size: 1.75rem;
+  line-height: 1.8;
+  color: #c7d0dc;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+  .work-title {
+    font-size: 1.9rem;
+  }
+
+  .experience-year {
+    font-size: 1.5rem;
+  }
+
+  .experience-role {
+    font-size: 1.75rem;
+  }
+
+  .experience-company {
+    font-size: 1.25rem;
+  }
+
+  .experience-description {
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .work-experience-section {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .work-title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem !important;
+  }
+
+  .experience-year {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .experience-role {
+    font-size: 1.4rem;
+  }
+
+  .experience-company {
+    font-size: 1rem;
+    margin-bottom: 1rem !important;
+  }
+
+  .experience-description {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
