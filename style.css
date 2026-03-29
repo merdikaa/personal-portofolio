@@ -93,7 +93,19 @@ h2 {
 .experience-content {
   max-width: 900px;
   margin: 0 auto;
+}
+
+.experience-head {
+  max-width: 760px;
+  margin: 0 auto 28px;
+}
+
+.experience-date-col {
   text-align: center;
+}
+
+.experience-info-col {
+  text-align: left;
 }
 
 .experience-year {
@@ -101,7 +113,7 @@ h2 {
   font-size: 1.05rem;
   font-weight: 400;
   line-height: 1.5;
-  margin-bottom: 18px;
+  margin-bottom: 0;
 }
 
 .experience-role {
@@ -116,7 +128,7 @@ h2 {
   color: #c2ccd8;
   font-size: 0.98rem;
   font-weight: 400;
-  margin-bottom: 26px;
+  margin-bottom: 0;
 }
 
 .experience-company .dot {
@@ -129,6 +141,7 @@ h2 {
   line-height: 1.85;
   max-width: 820px;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* Tablet */
@@ -141,11 +154,14 @@ h2 {
     margin-bottom: 40px;
   }
 
+  .experience-head {
+    max-width: 100%;
+  }
+
   .experience-role {
     font-size: 1.2rem;
   }
 
-  .experience-content,
   .experience-description {
     max-width: 100%;
   }
@@ -163,6 +179,15 @@ h2 {
     margin-bottom: 32px;
   }
 
+  .experience-head {
+    margin-bottom: 22px;
+  }
+
+  .experience-date-col,
+  .experience-info-col {
+    text-align: center;
+  }
+
   .experience-year {
     font-size: 1rem;
     margin-bottom: 14px;
@@ -175,7 +200,6 @@ h2 {
 
   .experience-company {
     font-size: 0.95rem;
-    margin-bottom: 18px;
   }
 
   .experience-description {
