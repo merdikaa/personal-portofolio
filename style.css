@@ -71,103 +71,111 @@ h2 {
 
 
 .work-experience-section {
-  background-color: #05080d;
-  color: #ffffff;
+  background: #02070d;
+  padding: 90px 0 110px;
 }
 
-.work-title {
-  font-size: 2.2rem;
-  letter-spacing: 2px;
-  color: #ffffff;
+.experience-wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.experience-title {
+  color: #f5f7fa;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
 }
 
 .experience-item {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  align-items: flex-start;
 }
 
 .experience-year {
-  font-size: 1.9rem;
+  color: #d7dee8;
+  font-size: 1.05rem;
   font-weight: 400;
-  color: #c9d4e5;
-  line-height: 1.2;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 .experience-role {
-  font-size: 2.1rem;
-  line-height: 1.2;
   color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 10px;
 }
 
 .experience-company {
-  font-size: 1.6rem;
-  color: #b8c2d1;
+  color: #c2ccd8;
+  font-size: 0.98rem;
+  font-weight: 400;
+  margin-bottom: 26px;
 }
 
-.experience-dot {
-  display: inline-block;
-  margin: 0 8px;
-  color: #b8c2d1;
+.experience-company .dot {
+  margin: 0 10px;
 }
 
 .experience-description {
-  max-width: 900px;
-  font-size: 1.75rem;
-  line-height: 1.8;
-  color: #c7d0dc;
+  max-width: 760px;
+  color: #d0d8e2;
+  font-size: 0.98rem;
+  line-height: 1.85;
+  margin: 0;
 }
 
-/* Responsive */
+/* Tablet */
 @media (max-width: 991.98px) {
-  .work-title {
-    font-size: 1.9rem;
+  .work-experience-section {
+    padding: 75px 0 90px;
   }
 
-  .experience-year {
-    font-size: 1.5rem;
+  .experience-title {
+    margin-bottom: 45px;
   }
 
   .experience-role {
-    font-size: 1.75rem;
-  }
-
-  .experience-company {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   .experience-description {
-    font-size: 1.2rem;
-    line-height: 1.7;
+    max-width: 100%;
   }
 }
 
-@media (max-width: 575.98px) {
+/* Mobile */
+@media (max-width: 767.98px) {
   .work-experience-section {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 60px 0 75px;
   }
 
-  .work-title {
-    font-size: 1.6rem;
-    margin-bottom: 2rem !important;
+  .experience-title {
+    font-size: 1rem;
+    letter-spacing: 2.5px;
+    margin-bottom: 35px;
   }
 
   .experience-year {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem !important;
+    font-size: 1rem;
+    margin-bottom: 12px;
   }
 
   .experience-role {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
+    margin-bottom: 8px;
   }
 
   .experience-company {
-    font-size: 1rem;
-    margin-bottom: 1rem !important;
+    font-size: 0.95rem;
+    margin-bottom: 18px;
   }
 
   .experience-description {
-    font-size: 1rem;
-    line-height: 1.7;
+    font-size: 0.95rem;
+    line-height: 1.75;
   }
 }
