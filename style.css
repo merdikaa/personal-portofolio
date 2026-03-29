@@ -101,6 +101,12 @@ h2 {
   margin-bottom: 20px;
 }
 
+.experience-content {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .experience-role {
   color: #ffffff;
   font-size: 1.3rem;
@@ -121,11 +127,11 @@ h2 {
 }
 
 .experience-description {
-  max-width: 760px;
   color: #d0d8e2;
   font-size: 0.98rem;
   line-height: 1.85;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 /* Tablet */
@@ -142,6 +148,7 @@ h2 {
     font-size: 1.2rem;
   }
 
+  .experience-content,
   .experience-description {
     max-width: 100%;
   }
@@ -161,7 +168,8 @@ h2 {
 
   .experience-year {
     font-size: 1rem;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
+    text-align: center;
   }
 
   .experience-role {
