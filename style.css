@@ -103,8 +103,8 @@ h2 {
 
 .experience-head-inner {
   display: grid;
-  grid-template-columns: 190px 430px;
-  column-gap: 58px;
+  grid-template-columns: 145px 430px;
+  column-gap: 30px;
   align-items: start;
   text-align: left;
 }
