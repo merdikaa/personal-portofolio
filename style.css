@@ -219,18 +219,32 @@ h2 {
   }
 }
 
+.skills-wrapper {
+  background: #2d333b !important; /* samakan dengan background dark bootstrap/custom */
+}
+
+.tech-stack-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tech-stack-header {
-  padding: 20px 0 24px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0 28px 0;
   background: transparent;
 }
 
 .tech-stack-title {
   margin: 0;
   color: #ffffff;
-  font-size: 1.7rem;   /* sebelumnya 2.2rem */
+  font-size: 1.7rem;
   font-family: Arial, sans-serif;
   font-weight: 700;
-  letter-spacing: 6px; /* sebelumnya 8px */
+  letter-spacing: 6px;
   line-height: 1.1;
   text-align: center;
   text-shadow:
@@ -240,7 +254,7 @@ h2 {
 
 @media (max-width: 768px) {
   .tech-stack-header {
-    padding: 14px 0 18px 0;
+    padding: 6px 0 20px 0;
   }
 
   .tech-stack-title {
