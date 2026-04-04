@@ -220,7 +220,8 @@ h2 {
 }
 
 .tech-stack-header {
-  padding: 20px 0 24px 0; /* supaya tidak terlalu bawah */
+  padding-top: 10px;
+  padding-bottom: 22px;
   background: transparent;
 }
 
