@@ -220,21 +220,31 @@ h2 {
 }
 
 .tech-stack-header {
-  background: transparent !important;
-}
-
-.tech-stack-header .container {
-  background: transparent !important;
+  padding: 20px 0 24px 0; /* supaya tidak terlalu bawah */
+  background: transparent;
 }
 
 .tech-stack-title {
-  letter-spacing: 8px;
+  margin: 0;
+  color: #ffffff;
   font-size: 2.2rem;
   font-family: Arial, sans-serif;
-  background: transparent !important;
+  font-weight: 700;
+  letter-spacing: 8px;
+  line-height: 1.1;
+  text-align: center;
+
+  /* efek typography seperti gambar pertama */
+  text-shadow:
+    1px 0 #3aa0ff,
+   -1px 0 #ff7a7a;
 }
 
 @media (max-width: 768px) {
+  .tech-stack-header {
+    padding: 14px 0 18px 0;
+  }
+
   .tech-stack-title {
     font-size: 1.5rem;
     letter-spacing: 5px;
