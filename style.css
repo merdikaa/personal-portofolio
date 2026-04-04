@@ -219,10 +219,19 @@ h2 {
   }
 }
 
+.tech-stack-header {
+  background: transparent !important;
+}
+
+.tech-stack-header .container {
+  background: transparent !important;
+}
+
 .tech-stack-title {
   letter-spacing: 8px;
   font-size: 2.2rem;
   font-family: Arial, sans-serif;
+  background: transparent !important;
 }
 
 @media (max-width: 768px) {
