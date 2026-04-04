@@ -220,7 +220,7 @@ h2 {
 }
 
 .skills-wrapper {
-  background: #2d333b !important; /* samakan dengan background dark bootstrap/custom */
+  background: #2d333b !important;
 }
 
 .tech-stack-section {
@@ -229,6 +229,7 @@ h2 {
   align-items: center;
 }
 
+/* Title */
 .tech-stack-header {
   width: 100%;
   display: flex;
@@ -252,6 +253,56 @@ h2 {
    -1px 0 #ff7a7a;
 }
 
+/* Tech Stack Grid */
+.tech-stack {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+/* Card khusus tech stack */
+#tech-stack .card {
+  background: #1f252d;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  min-height: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  box-shadow: none;
+  transition: 0.3s ease;
+}
+
+#tech-stack .card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+#tech-stack .card i {
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+#tech-stack .card p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .tech-stack {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 24px;
+  }
+}
+
 @media (max-width: 768px) {
   .tech-stack-header {
     padding: 6px 0 20px 0;
@@ -260,5 +311,30 @@ h2 {
   .tech-stack-title {
     font-size: 1.25rem;
     letter-spacing: 4px;
+  }
+
+  .tech-stack {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    gap: 18px;
+  }
+
+  #tech-stack .card {
+    min-height: 145px;
+    padding: 20px 12px;
+  }
+
+  #tech-stack .card i {
+    font-size: 3.2rem;
+    margin-bottom: 14px;
+  }
+
+  #tech-stack .card p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-stack {
+    grid-template-columns: 1fr;
   }
 }
